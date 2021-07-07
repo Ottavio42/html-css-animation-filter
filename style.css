@@ -65,10 +65,25 @@
     invert(100%)
     drop-shadow(8px 8px 10px rgb(208, 255, 0)) ;
 }
+.ex-8-img{
+    transition: 3s;
+}
+.ex-8-img:hover{
+    border-radius: 10px;
+    filter: sepia(60%)
+    contrast(120%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
+}
+.ex-9-img:hover{
+    border-radius: 10px;
+    transform: scale(1.5 , 1.5);
+    filter: grayscale(50%)
+    blur(10px);
 }
 .ex-10-icon {
     font-size: 60px;
