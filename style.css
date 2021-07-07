@@ -2,10 +2,9 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-}
-.ex-1-square {
     transition: 3s;
 }
+
 .ex-1-square:hover {
     background-color: red;
 }
@@ -13,10 +12,9 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-.ex-2-square {
     transition: 3s;
 }
+
 .ex-2-square:active {
     width: 600px;
 }
@@ -24,10 +22,9 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-.ex-3-square{
     transition: 3s;
 }
+
 .ex-3-square:hover {
     border-radius: 50%;
 }
@@ -35,8 +32,6 @@
     width: 100px;
     height: 100px;
     background: red;
-}
-.ex-4-square {
     transition: 3s;
 }
 .ex-4-square:hover{
@@ -58,6 +53,17 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+.ex-7-img{
+    transition: 3s;
+}
+.ex-7-img:hover{
+    filter: grayscale(100%)
+    invert(100%)
+    drop-shadow(8px 8px 10px rgb(208, 255, 0)) ;
 }
 
 .ex-9-img {
