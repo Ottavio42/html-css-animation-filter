@@ -81,13 +81,23 @@
 }
 .ex-9-img:hover{
     border-radius: 10px;
-    transform: scale(1.5 , 1.5);
+    transform: scale(1.2 , 1.2);
     filter: grayscale(50%)
     blur(10px);
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name: ruotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+@keyframes ruotare {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
